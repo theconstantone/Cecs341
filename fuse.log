@@ -1,0 +1,40 @@
+Running: C:\lol\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/clner/Documents/CECS225/MIPS_CORE/MIPS_CORE_TESTER_isim_beh.exe -prj C:/Users/clner/Documents/CECS225/MIPS_CORE/MIPS_CORE_TESTER_beh.prj work.MIPS_CORE_TESTER work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/clner/Documents/CECS225/MIPS_CORE/SignExtend16_32.v" into library work
+Analyzing Verilog file "C:/Users/clner/Documents/CECS225/MIPS_CORE/RegFile32.v" into library work
+Analyzing Verilog file "C:/Users/clner/Documents/CECS225/MIPS_CORE/Mux2to1_5bit.v" into library work
+Analyzing Verilog file "C:/Users/clner/Documents/CECS225/MIPS_CORE/Mux2to1_32bit.v" into library work
+Analyzing Verilog file "C:/Users/clner/Documents/CECS225/MIPS_CORE/ALU_CONTROL.v" into library work
+Analyzing Verilog file "C:/Users/clner/Documents/CECS225/MIPS_CORE/ALU.v" into library work
+Analyzing Verilog file "C:/Users/clner/Documents/CECS225/MIPS_CORE/IMEM_128x8.v" into library work
+Analyzing Verilog file "C:/Users/clner/Documents/CECS225/MIPS_CORE/DMEM_256x8.v" into library work
+WARNING:HDLCompiler:991 - "C:/Users/clner/Documents/CECS225/MIPS_CORE/DMEM_256x8.v" Line 24: Event expressions must result in a singular type
+Analyzing Verilog file "C:/Users/clner/Documents/CECS225/MIPS_CORE/CPU_EU.v" into library work
+Analyzing Verilog file "C:/Users/clner/Documents/CECS225/MIPS_CORE/Control.v" into library work
+Analyzing Verilog file "C:/Users/clner/Documents/CECS225/MIPS_CORE/MIPS_CORE.v" into library work
+Analyzing Verilog file "C:/Users/clner/Documents/CECS225/MIPS_CORE/MIPS_CORE_TESTER.v" into library work
+Analyzing Verilog file "C:/lol/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module IMEM_128x8
+Compiling module Control
+Compiling module Mux2to1_5bit
+Compiling module Mux2to1_32bit
+Compiling module RegFile32
+Compiling module SignExtend_16to32
+Compiling module ALU_Control
+Compiling module ALU
+Compiling module CPU_EU
+Compiling module DMEM_256x8
+Compiling module MIPS_CORE
+Compiling module MIPS_CORE_TESTER
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 13 Verilog Units
+Built simulation executable C:/Users/clner/Documents/CECS225/MIPS_CORE/MIPS_CORE_TESTER_isim_beh.exe
+Fuse Memory Usage: 28992 KB
+Fuse CPU Usage: 546 ms

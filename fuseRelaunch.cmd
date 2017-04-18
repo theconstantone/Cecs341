@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/clner/Documents/CECS225/MIPS_CORE/MIPS_CORE_TESTER_isim_beh.exe" -prj "C:/Users/clner/Documents/CECS225/MIPS_CORE/MIPS_CORE_TESTER_beh.prj" "work.MIPS_CORE_TESTER" "work.glbl" 
